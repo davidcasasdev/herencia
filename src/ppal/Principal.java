@@ -1,5 +1,7 @@
 package ppal;
 
+import java.util.ArrayList;
+
 import clases.Comercial;
 import clases.Empleado;
 
@@ -36,6 +38,17 @@ public class Principal {
 		Empleado e = new Empleado(c);
 		System.out.println("\n"+e);
 		System.out.println("El salario del empleado es "+e.calculaSalario());
+		
+		
+		ArrayList<Empleado> lista= new ArrayList<Empleado> ();
+		
+		lista.add(e);
+	
+		lista.add(c);
+		
+		Empleado c2 = new Comercial();
+		
+		// Comercial c3 = new Empleado();
 
 	}
 
